@@ -1,0 +1,44 @@
+
+:root {
+    --store-info-font-color: #373737;
+}
+
+.store-continer {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    line-height: 5em;
+}
+
+.store-continer p:first-child {
+    font-size: 18px;
+    font-weight: 300;
+    color: var(--store-info-font-color);
+}
+
+.store-continer h1 {
+    font-size: 57px;
+    font-weight: 700;
+    color: var(--store-info-font-color);
+}
+
+.store-continer h1,
+.store-continer p {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: center;
+}
+
+.store-continer p:last-child {
+    font-size: 32px;
+    font-weight: 300;
+    color: var(--store-info-font-color);
+}
+
+.store-continer figure img {
+    width: 48px;
+    height: 38.98px;
+    object-fit: contain;
+    margin: 0 1rem;
+}

@@ -1,0 +1,81 @@
+:root {
+    --contact-font-color: #b1b0b5;
+    --contact-font-size: 18px; 
+}
+
+.contact-us-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+
+    
+}
+
+.contact-us-container div:first-child p {
+   text-align: center;
+   font-size: var(--contact-font-size);
+   font-weight: 300;
+   color: var(--contact-font-color);
+   margin-bottom: 1rem;
+   margin-top: 5em;
+}
+
+.contact-us-container div:first-child h1 {
+    text-align: center;
+    font-size: 3em;
+    color: var(--contact-font-color);
+    font-weight: bolder;
+    margin-bottom: 3rem;
+}
+
+.contact-details {
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 0 1rem;
+    max-width: 75%;
+}
+
+.contact-details label {
+    font-size: var(--contact-font-size);
+    color: var(--contact-font-color);
+    font-weight: 400;
+}
+
+
+.contact-details input,
+.contact-details textarea,
+.contact-details button {
+    margin-bottom: 2.5rem;
+}
+
+.contact-details input,
+.contact-details textarea {
+    margin-top: 0.5rem;
+}
+
+.contact-details input {
+    flex-basis: 3.5rem;
+    font-size: var(--contact-font-size);
+    padding: 0 1rem;
+}
+
+.contact-details textarea {
+    resize: none;
+    font-size: var(--contact-font-size);
+    padding: .5rem 1rem;
+}
+
+.contact-details button {
+    flex-basis: 3.5rem;
+    font-size: var(--contact-font-size);
+    cursor: pointer;
+}
+
+.contact-details p {
+    font-size: var(--contact-font-size);
+    text-align: center;
+    color: var(--contact-font-color);
+    margin-bottom: 5em;
+}

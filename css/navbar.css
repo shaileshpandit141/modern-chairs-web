@@ -1,0 +1,15 @@
+body main nav {
+    background-color: #373737;
+    position: sticky;
+    top: 0;
+}
+
+main nav figure {
+    padding: 1rem;
+    height: 50px;
+}
+
+main nav img {
+    border: 2px solid white;
+    border-radius: 50px;
+}

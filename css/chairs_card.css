@@ -1,0 +1,124 @@
+:root {
+    --chairs-card-font-size: 18px; 
+}
+
+.our-chairs-container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.our-chairs-container .chair-p {
+    text-align: center;
+}
+
+
+.our-chairs-container div p:first-child {
+    font-weight: 300;
+    font-size: var(--chairs-card-font-size);
+    margin-top: 5em;
+}
+
+.our-chairs-container div:first-child h1 {
+    font-size: 3em;
+    margin-top: .3em;
+    margin-bottom: .8em;
+    font-weight: 700;
+    color: #373737;
+}
+.our-chairs-container div p:last-child {
+    margin-bottom: 3em;
+}
+
+.our-chairs-container .para {
+    font-size: var(--chairs-card-font-size);
+    font-weight: 400;
+    line-height: 1.45em;
+    color: #373737;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.chairs-card-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+/* @media (width <= 600px) {
+    .chairs-card-container {
+        flex-flow: row wrap;
+    }
+} */
+
+@media (width <= 769px) {
+    .chairs-card-container {
+        flex-flow: column;
+    }
+}
+
+.chairs-card-container .card {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card figure {
+    flex: 1;
+    width: clamp(189px, 50%, 368px);
+    height: clamp(240px, 100%, 470px);
+    object-fit: cover;
+
+    display: flex;
+}
+
+.card img {
+    flex: 1;
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+}
+
+.card p {
+    width: clamp(189px, 50%, 378px);
+}
+
+.card p:nth-child(2) {
+    font-size: 43px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-weight: 100;
+    color: #777777;
+}
+
+.card p:nth-child(3) {
+    font-size: var(--chairs-card-font-size);
+    margin-bottom: 1rem;
+    line-height: 1.6em;
+    word-spacing: .2rem;
+    font-weight: 700;
+}
+
+.card p:nth-child(4) {
+    font-size: var(--chairs-card-font-size);
+    margin-bottom: 1rem;
+    line-height: 1.6em;
+    word-spacing: .2rem;
+    font-weight: 400;
+}
+
+
+.our-chairs-container .chair-buy-info {
+    text-align: center;
+    font-size: var(--chairs-card-font-size);
+    word-spacing: .2rem;
+    font-weight: 400;
+    margin:2em 1rem 5em;
+}
+
+.our-chairs-container .chair-buy-info a:hover {
+    text-decoration: none;
+}
